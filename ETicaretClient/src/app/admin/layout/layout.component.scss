@@ -1,0 +1,26 @@
+.admin-container {
+  width: 99%;
+  height: calc(100vh - 98px);
+  margin: 16px;
+  margin-left: 2px;
+  justify-content: center;
+  align-items: center;
+}
+.admin-left {
+  width: 150px;
+  background-color: #002b5c;
+  color: white;
+  border-right: none;
+  border-radius: 10px;
+  padding: 16px;
+}
+.main {
+  text-align: center;
+  height: calc(100vh - 98px);
+  margin: 5px;
+
+  justify-content: center;
+  align-items: center;
+  font-size: 1rem;
+  border-radius: 10px;
+}

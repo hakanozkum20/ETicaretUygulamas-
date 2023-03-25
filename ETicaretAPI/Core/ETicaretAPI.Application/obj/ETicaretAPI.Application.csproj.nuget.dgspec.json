@@ -1,0 +1,122 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/esta/Projects/ETicaretUygulaması/ETicaretAPI/Core/ETicaretAPI.Application/ETicaretAPI.Application.csproj": {}
+  },
+  "projects": {
+    "/home/esta/Projects/ETicaretUygulaması/ETicaretAPI/Core/ETicaretAPI.Application/ETicaretAPI.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/esta/Projects/ETicaretUygulaması/ETicaretAPI/Core/ETicaretAPI.Application/ETicaretAPI.Application.csproj",
+        "projectName": "ETicaretAPI.Application",
+        "projectPath": "/home/esta/Projects/ETicaretUygulaması/ETicaretAPI/Core/ETicaretAPI.Application/ETicaretAPI.Application.csproj",
+        "packagesPath": "/home/esta/.nuget/packages/",
+        "outputPath": "/home/esta/Projects/ETicaretUygulaması/ETicaretAPI/Core/ETicaretAPI.Application/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/esta/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/home/esta/Projects/ETicaretUygulaması/ETicaretAPI/Core/ETicaretAPI.Domain/ETicaretAPI.Domain.csproj": {
+                "projectPath": "/home/esta/Projects/ETicaretUygulaması/ETicaretAPI/Core/ETicaretAPI.Domain/ETicaretAPI.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/6.0.113/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/esta/Projects/ETicaretUygulaması/ETicaretAPI/Core/ETicaretAPI.Domain/ETicaretAPI.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/esta/Projects/ETicaretUygulaması/ETicaretAPI/Core/ETicaretAPI.Domain/ETicaretAPI.Domain.csproj",
+        "projectName": "ETicaretAPI.Domain",
+        "projectPath": "/home/esta/Projects/ETicaretUygulaması/ETicaretAPI/Core/ETicaretAPI.Domain/ETicaretAPI.Domain.csproj",
+        "packagesPath": "/home/esta/.nuget/packages/",
+        "outputPath": "/home/esta/Projects/ETicaretUygulaması/ETicaretAPI/Core/ETicaretAPI.Domain/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/esta/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/6.0.113/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
